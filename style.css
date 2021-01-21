@@ -1,0 +1,14 @@
+*,  /* '*'selects all things, the :: before and :: after grab *something else* */
+*::before,  /* these 3 are a safety to eliminate some presets */
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* @font-face{     THIS IS AN EXAMPLE OF HOW TO USE FONTS IF YOU DOWNLOAD THEM AND PUT THE IN THE FILE
+    font-family: PopLight;
+    src: url("./fonts/Poppins-Light.ttf");
+} */
+
